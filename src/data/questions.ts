@@ -1,0 +1,348 @@
+import type { Question } from '../types';
+
+export const questions: Question[] = [
+
+  // ─── RAINBOW BRIDGE — Counting (rb1–rb5) ──────────────────
+  {
+    id: 'rb1', topic: 'Counting', classLevel: '6',
+    question: 'How many apples do you see? 🍎🍎🍎',
+    options: ['1', '2', '3', '4'], correctAnswer: '3',
+    explanation: 'Count them: 1, 2, 3 apples! 🍎🍎🍎',
+    hints: ['Point to each apple.', 'Count slowly: one, two…', 'More than 2 but less than 4!', 'THREE apples!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'rb2', topic: 'Counting', classLevel: '6',
+    question: 'How many stars? ⭐⭐',
+    options: ['1', '2', '3', '4'], correctAnswer: '2',
+    explanation: 'Count: 1, 2 stars! ⭐⭐',
+    hints: ['Look at each star.', 'One star, then one more!', 'Not 1, not 3…', 'TWO stars!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'rb3', topic: 'Counting', classLevel: '6',
+    question: 'How many cats? 🐱🐱🐱🐱',
+    options: ['2', '3', '4', '5'], correctAnswer: '4',
+    explanation: 'Count each cat: 1, 2, 3, 4! 🐱🐱🐱🐱',
+    hints: ['Point to each cat!', 'Start counting!', 'More than 3!', 'FOUR cats!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'rb4', topic: 'Counting', classLevel: '6',
+    question: 'How many flowers? 🌸🌸🌸🌸🌸',
+    options: ['3', '4', '5', '6'], correctAnswer: '5',
+    explanation: 'Five flowers! 🌸🌸🌸🌸🌸',
+    hints: ['Count each flower!', 'More than 4!', 'Less than 6!', 'FIVE flowers!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'rb5', topic: 'Counting', classLevel: '6',
+    question: 'Count the balloons! 🎈🎈🎈',
+    options: ['1', '2', '3', '4'], correctAnswer: '3',
+    explanation: 'Three balloons! 🎈🎈🎈',
+    hints: ['Count balloons one by one.', 'Start with 1!', 'More than 2!', 'THREE balloons!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+
+  // ─── SPLASH TANK — Bigger/Smaller (st1–st5) ────────────────
+  {
+    id: 'st1', topic: 'Numbers', classLevel: '6',
+    question: 'Which number is BIGGER? 3 or 7',
+    options: ['3', '7', '1', '2'], correctAnswer: '7',
+    explanation: '7 is bigger than 3! Count to 7 and you pass 3 on the way!',
+    hints: ['Count to both numbers!', '7 comes after 3!', 'Further along = bigger!', '7 is bigger!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'st2', topic: 'Numbers', classLevel: '6',
+    question: 'Which number is SMALLER? 5 or 2',
+    options: ['5', '2', '4', '8'], correctAnswer: '2',
+    explanation: '2 is smaller! 2 comes before 5 when we count.',
+    hints: ['Which comes first when counting?', '2 comes before 5!', 'Fewest = smallest!', '2 is smaller!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'st3', topic: 'Numbers', classLevel: '6',
+    question: 'What number comes AFTER 4?',
+    options: ['3', '4', '5', '6'], correctAnswer: '5',
+    explanation: '5 comes after 4! Count: 1, 2, 3, 4, 5!',
+    hints: ['Count out loud to 4!', 'What comes next?', '4 + 1 = ?', '4 + 1 = 5!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'st4', topic: 'Numbers', classLevel: '6',
+    question: 'What number comes BEFORE 3?',
+    options: ['1', '2', '4', '5'], correctAnswer: '2',
+    explanation: '2 comes before 3! Count: 1, 2, 3.',
+    hints: ['Count up to 3!', 'What came just before 3?', '3 - 1 = ?', '3 - 1 = 2!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'st5', topic: 'Numbers', classLevel: '6',
+    question: 'Which group has MORE? 6 🐟 or 4 🐟',
+    options: ['4 fish', '6 fish', 'Same', '2 fish'], correctAnswer: '6 fish',
+    explanation: '6 fish is more than 4 fish! 🐟🐟🐟🐟🐟🐟',
+    hints: ['Count 6 fingers, then 4!', 'Which group has more?', '6 is bigger than 4!', '6 fish is MORE!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+
+  // ─── FRUIT MARKET — Addition (fm1–fm5) ─────────────────────
+  {
+    id: 'fm1', topic: 'Addition', classLevel: '6',
+    question: '⭐⭐ + ⭐ = how many stars?',
+    options: ['2', '3', '4', '5'], correctAnswer: '3',
+    explanation: '2 + 1 = 3 stars! ⭐⭐⭐',
+    hints: ['Hold up 2 fingers then 1 more!', 'Count all fingers!', 'Two and one more…', '2 + 1 = 3!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'fm2', topic: 'Addition', classLevel: '6',
+    question: '1 + 1 = ?',
+    options: ['1', '2', '3', '4'], correctAnswer: '2',
+    explanation: '1 + 1 = 2! One finger plus one more = two!',
+    hints: ['Hold up 1 finger!', 'Now add 1 more!', 'How many?', '1 + 1 = 2!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'fm3', topic: 'Addition', classLevel: '6',
+    question: '2 + 2 = ?',
+    options: ['2', '3', '4', '5'], correctAnswer: '4',
+    explanation: '2 + 2 = 4! Two fingers on each hand!',
+    hints: ['Hold 2 on left hand!', 'Hold 2 on right hand!', 'Count all fingers!', '2 + 2 = 4!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'fm4', topic: 'Addition', classLevel: '6',
+    question: '🍎🍎🍎 + 🍎🍎 = how many apples?',
+    options: ['4', '5', '6', '7'], correctAnswer: '5',
+    explanation: '3 + 2 = 5 apples! 🍎🍎🍎🍎🍎',
+    hints: ['Start at 3!', 'Count 2 more: 4, 5!', 'Use your fingers!', '3 + 2 = 5!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'fm5', topic: 'Addition', classLevel: '6',
+    question: '4 + 1 = ?',
+    options: ['3', '4', '5', '6'], correctAnswer: '5',
+    explanation: '4 + 1 = 5! Just one more than 4!',
+    hints: ['Start at 4!', 'Add just 1 more!', '4 then 5!', '4 + 1 = 5!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+
+  // ─── SHAPE GATE — Shapes (sg1–sg5) ─────────────────────────
+  {
+    id: 'sg1', topic: 'Shapes', classLevel: '6',
+    question: 'Which shape is perfectly round like a ball?',
+    options: ['Square', 'Circle', 'Triangle', 'Rectangle'], correctAnswer: 'Circle',
+    explanation: 'A circle is perfectly round — like a wheel! ⭕',
+    hints: ['Think of a wheel!', 'No corners!', 'Completely round!', 'Circle!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'sg2', topic: 'Shapes', classLevel: '6',
+    question: 'How many sides does a triangle have? △',
+    options: ['2', '3', '4', '5'], correctAnswer: '3',
+    explanation: 'A triangle has 3 sides! △',
+    hints: ['Look at a triangle!', 'Count the sides!', 'Tri means three!', '3 sides!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'sg3', topic: 'Shapes', classLevel: '6',
+    question: 'What shape is the sun? ☀️',
+    options: ['Triangle', 'Square', 'Circle', 'Rectangle'], correctAnswer: 'Circle',
+    explanation: 'The sun is a circle — round and bright! ☀️',
+    hints: ['Is the sun pointy or round?', 'No corners!', 'Round like a ball!', 'Circle!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'sg4', topic: 'Shapes', classLevel: '6',
+    question: 'How many sides does a square have? □',
+    options: ['2', '3', '4', '5'], correctAnswer: '4',
+    explanation: 'A square has 4 equal sides! □',
+    hints: ['Count the sides!', 'Top, bottom, left, right…', 'All equal!', '4 sides!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'sg5', topic: 'Shapes', classLevel: '6',
+    question: 'Which shape looks like a pizza slice? 🍕',
+    options: ['Circle', 'Square', 'Triangle', 'Rectangle'], correctAnswer: 'Triangle',
+    explanation: 'A pizza slice is a triangle! Three sides!',
+    hints: ['A pizza slice has 3 sides!', 'It has a pointy end!', 'Tri means three!', 'Triangle!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+
+  // ─── MYSTERY CAVE — Patterns (mc1–mc5) ─────────────────────
+  {
+    id: 'mc1', topic: 'Patterns', classLevel: '6',
+    question: 'What comes next? ⭐ 🌙 ⭐ 🌙 __',
+    options: ['🌙', '⭐', '☀️', '💫'], correctAnswer: '⭐',
+    explanation: 'Star, Moon, Star, Moon… ⭐ comes next!',
+    hints: ['What repeats?', 'Star then moon, star then…', 'After moon comes star!', '⭐ is next!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'mc2', topic: 'Patterns', classLevel: '6',
+    question: 'What number is missing? 1, 2, __, 4, 5',
+    options: ['1', '2', '3', '6'], correctAnswer: '3',
+    explanation: '3 fits between 2 and 4! Count: 1, 2, 3, 4, 5!',
+    hints: ['What comes after 2?', 'What comes before 4?', '2 + 1 = ?', '3 is missing!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'mc3', topic: 'Patterns', classLevel: '6',
+    question: 'What comes next? 🔴 🔵 🔴 🔵 __',
+    options: ['🔵', '🔴', '🟡', '🟢'], correctAnswer: '🔴',
+    explanation: 'Red, Blue, Red, Blue — 🔴 Red comes next!',
+    hints: ['Two colours take turns!', 'Red then blue…', 'After blue comes red!', '🔴 is next!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'mc4', topic: 'Patterns', classLevel: '7',
+    question: 'What is missing? 2, 4, __, 8',
+    options: ['3', '5', '6', '7'], correctAnswer: '6',
+    explanation: '2, 4, 6, 8 — each number goes up by 2! Missing = 6!',
+    hints: ['Each number adds 2!', '4 + 2 = ?', 'Count in twos!', '6 is the answer!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 25,
+  },
+  {
+    id: 'mc5', topic: 'Patterns', classLevel: '6',
+    question: 'What comes next? 🐶 🐱 🐶 🐱 __',
+    options: ['🐱', '🐶', '🐻', '🐸'], correctAnswer: '🐶',
+    explanation: 'Dog, Cat, Dog, Cat — 🐶 Dog comes next!',
+    hints: ['Two animals take turns!', 'Dog then cat…', 'After cat comes dog!', '🐶 Dog is next!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+
+  // ─── STAR TOWER — Counting/Number order (stw1–stw5) ─────────
+  {
+    id: 'stw1', topic: 'Numbers', classLevel: '7',
+    question: 'Which is BIGGER: 8 or 6?',
+    options: ['6', '7', '8', '5'], correctAnswer: '8',
+    explanation: '8 is bigger than 6! 8 comes after 6 when counting.',
+    hints: ['Count to both numbers!', '8 comes AFTER 6!', '8 > 6!', '8 is bigger!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'stw2', topic: 'Numbers', classLevel: '7',
+    question: 'What comes after 9?',
+    options: ['8', '10', '11', '7'], correctAnswer: '10',
+    explanation: '10 comes after 9! 🔟',
+    hints: ['Count: eight, nine…', 'What\'s next?', '9 + 1 = ?', '9 + 1 = 10!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'stw3', topic: 'Numbers', classLevel: '7',
+    question: 'Count the fish! 🐟🐟🐟🐟🐟🐟',
+    options: ['4', '5', '6', '7'], correctAnswer: '6',
+    explanation: 'Six fish! Count: 1, 2, 3, 4, 5, 6! 🐟',
+    hints: ['Count each fish!', 'More than 5!', 'One, two, three, four, five…', 'Six fish!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 25,
+  },
+  {
+    id: 'stw4', topic: 'Numbers', classLevel: '7',
+    question: 'Smallest of these: 1, 4, 9, 6',
+    options: ['4', '6', '1', '9'], correctAnswer: '1',
+    explanation: '1 is the smallest! It comes first when we count.',
+    hints: ['Which comes first?', '1 comes before 4, 6, and 9!', 'Fewest = smallest!', '1 is smallest!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'stw5', topic: 'Numbers', classLevel: '7',
+    question: 'Count the ice creams! 🍦🍦🍦🍦🍦🍦🍦',
+    options: ['5', '6', '7', '8'], correctAnswer: '7',
+    explanation: 'Seven ice creams! 🍦 Count: 1, 2, 3, 4, 5, 6, 7!',
+    hints: ['Count one by one!', 'More than 6!', 'One through six…', 'Seven! 🍦'],
+    difficulty: 'Easy', estimatedTimeSeconds: 25,
+  },
+
+  // ─── ANIMAL ARENA — Animals (aa1–aa5) ─────────────────────
+  {
+    id: 'aa1', topic: 'Animals', classLevel: '6',
+    question: 'Which animal says MOO? 🐶 🐱 🐮 🦁',
+    options: ['Dog', 'Cat', 'Cow', 'Lion'], correctAnswer: 'Cow',
+    explanation: 'A cow says MOOO! 🐮 Cows live on farms.',
+    hints: ['Which animal lives on a farm?', 'This animal gives us milk!', 'It says mooo!', 'COW! 🐮'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'aa2', topic: 'Animals', classLevel: '6',
+    question: 'Which animal has the longest neck? 🐘 🦒 🐯 🐸',
+    options: ['Elephant', 'Giraffe', 'Tiger', 'Frog'], correctAnswer: 'Giraffe',
+    explanation: 'A giraffe has the longest neck! 🦒',
+    hints: ['This animal is very tall!', 'It eats leaves from tall trees!', 'Super long neck!', 'GIRAFFE! 🦒'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'aa3', topic: 'Animals', classLevel: '6',
+    question: 'How many legs does a dog have? 🐕',
+    options: ['2', '4', '6', '8'], correctAnswer: '4',
+    explanation: 'Dogs have 4 legs! 🐕',
+    hints: ['Count a dog\'s legs!', 'Front 2 + back 2!', '2 + 2 = ?', '4 legs!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'aa4', topic: 'Animals', classLevel: '6',
+    question: 'Which animal can fly? 🐠 🐘 🦋 🐢',
+    options: ['Fish', 'Elephant', 'Butterfly', 'Turtle'], correctAnswer: 'Butterfly',
+    explanation: 'A butterfly has wings and can fly! 🦋',
+    hints: ['Which has wings?', 'It comes from a caterpillar!', 'Colorful wings!', 'BUTTERFLY! 🦋'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'aa5', topic: 'Animals', classLevel: '6',
+    question: 'A baby cat is called a __?',
+    options: ['Puppy', 'Kitten', 'Calf', 'Duckling'], correctAnswer: 'Kitten',
+    explanation: 'A baby cat is called a kitten! 🐱',
+    hints: ['What says meow?', 'Drinks milk!', 'Has whiskers!', 'Baby CAT = kitten!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+
+  // ─── HAPPY CASTLE — Mixed Fun (hc1–hc5) ────────────────────
+  {
+    id: 'hc1', topic: 'Mixed', classLevel: '7',
+    question: '2 + 3 = ?',
+    options: ['4', '5', '6', '7'], correctAnswer: '5',
+    explanation: '2 + 3 = 5! Start at 2 and count 3 more: 3, 4, 5!',
+    hints: ['Start at 2!', 'Count 3 more!', '2, 3, 4, 5!', '2 + 3 = 5!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'hc2', topic: 'Mixed', classLevel: '7',
+    question: 'Which shape has NO corners at all? ⭕',
+    options: ['Square', 'Triangle', 'Rectangle', 'Circle'], correctAnswer: 'Circle',
+    explanation: 'A circle has no corners — completely round! ⭕',
+    hints: ['Think of a wheel!', 'No sharp points!', 'Completely round!', 'Circle!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'hc3', topic: 'Mixed', classLevel: '7',
+    question: 'Count the lions! 🦁🦁🦁🦁',
+    options: ['2', '3', '4', '5'], correctAnswer: '4',
+    explanation: 'Four lions! 🦁🦁🦁🦁',
+    hints: ['Count each lion!', 'One, two, three…', 'More than 3!', '4 lions!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 20,
+  },
+  {
+    id: 'hc4', topic: 'Mixed', classLevel: '7',
+    question: 'What comes next? 1, 2, 3, __',
+    options: ['2', '4', '5', '6'], correctAnswer: '4',
+    explanation: '4 comes after 3!',
+    hints: ['Keep counting!', 'What comes after 3?', '3 + 1 = ?', '4 is next!'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+  {
+    id: 'hc5', topic: 'Mixed', classLevel: '7',
+    question: 'Which animal says WOOF? 🐮 🐸 🐶 🐱',
+    options: ['Cow', 'Frog', 'Dog', 'Cat'], correctAnswer: 'Dog',
+    explanation: 'A dog says WOOF! 🐶',
+    hints: ['Friendly pet!', 'It wags its tail!', 'Woof woof!', 'DOG! 🐶'],
+    difficulty: 'Easy', estimatedTimeSeconds: 15,
+  },
+];
+
+export function getQuestionById(id: string): Question | undefined {
+  return questions.find((q) => q.id === id);
+}
+
+export function getQuestionsByIds(ids: string[]): Question[] {
+  return ids.map((id) => questions.find((q) => q.id === id)).filter(Boolean) as Question[];
+}
